@@ -1,0 +1,98 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+
+# Generated files
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-dependencies.json
+.metadata
+
+# Android
+android/.gradle/
+android/local.properties
+android/.idea/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Runner/GeneratedPluginRegistrant.m
+
+# macOS
+macos/Pods/
+macos/Flutter/ephemeral/
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Windows
+windows/flutter/ephemeral/
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/generated_plugins.cmake
+
+# Linux
+linux/flutter/ephemeral/
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugin_registrant.h
+linux/flutter/generated_plugins.cmake
+
+# Web
+web/flutter.js
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Coverage
+coverage/
+
+# Firebase generated files
+firebase-debug.log
+firebase-debug.*.log
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+
+# Fastlane
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots/**/*.png
+**/fastlane/test_output
+
+# Android signing files
+*.jks
+*.keystore
+key.properties
